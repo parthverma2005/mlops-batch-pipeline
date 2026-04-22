@@ -1,0 +1,17 @@
+2026-04-22 19:46:46,402 - INFO - Job started
+2026-04-22 19:46:46,422 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-22 19:46:46,486 - ERROR - Missing 'close' column
+2026-04-22 19:51:11,538 - INFO - Job started
+2026-04-22 19:51:11,540 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-22 19:51:11,567 - ERROR - Dataset validation failed: 'close' column not found
+2026-04-22 19:54:42,106 - INFO - Job started
+2026-04-22 19:54:42,107 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-22 19:54:42,135 - ERROR - Dataset validation failed: 'close' column not found
+2026-04-22 20:00:18,631 - INFO - Job started
+2026-04-22 20:00:18,632 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-22 20:00:18,737 - INFO - Columns detected: ['"timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd"']
+2026-04-22 20:00:18,737 - INFO - Rows loaded: 10000
+2026-04-22 20:00:18,772 - INFO - Processed rows: 9996
+2026-04-22 20:00:18,772 - INFO - Signal rate: 0.4991
+2026-04-22 20:00:18,772 - INFO - Metrics: {'version': 'v1', 'rows_processed': 9996, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 141, 'seed': 42, 'status': 'success'}
+2026-04-22 20:00:18,772 - INFO - Job completed successfully
